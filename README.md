@@ -38,9 +38,9 @@ Config.h
 
 
 **IMPORTANT:** `REFERENCE_HTTP` in **include/config.h** must be the server
-where you upload the binaries (mips*, arm, ppc, sh4) and **getbinaries.sh**.
+where you upload the binaries (mips*, arm, ppc, sh4) and `getbinaries.sh`.
 If you change the `name of binaries` you must update the **Makefile** and
-**getbinaries.sh** too.
+`getbinaries.sh` too.
 
 ```bash
 deftcode ~ $ vi include/config.h
