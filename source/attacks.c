@@ -2,7 +2,12 @@
  * attacks.c - USE LIGHTAIDRA AT YOUR OWN RISK!
  *
  * Lightaidra - IRC-based mass router scanner/exploiter.
- * Copyright (C) Federico Fazzi, <federico@ahacktivia.org>.
+ * Copyright (C) 2008-2015 Federico Fazzi, <eurialo@deftcode.ninja>.
+ *
+ * LEGAL DISCLAIMER: It is the end user's responsibility to obey 
+ * all applicable local, state and federal laws. Developers assume 
+ * no liability and are not responsible for any misuse or damage 
+ * caused by this program.
  *
  */
 

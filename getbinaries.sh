@@ -1,6 +1,11 @@
 #!/bin/sh
 # THIS SCRIPT DOWNLOAD THE BINARIES INTO ROUTER.
 # UPLOAD GETBINARIES.SH IN YOUR HTTPD.
+#
+# LEGAL DISCLAIMER: It is the end user's responsibility to obey 
+# all applicable local, state and federal laws. Developers assume 
+# no liability and are not responsible for any misuse or damage 
+# caused by this program.
 
 # YOUR HTTPD SERVER:
 REFERENCE_HTTP="http://127.0.0.1"
