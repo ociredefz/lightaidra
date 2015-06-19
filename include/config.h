@@ -47,29 +47,29 @@
 /* DON'T CHANGE IF YOU DON'T KNOW WHAT  */
 /* YOU ARE DOING!                       */
 #ifdef MIPSEL
-	#define irc_nick_prefix   "[MS]"
-	#define nctype "m"
-	#define maxthreads (128)
+    #define irc_nick_prefix   "[MS]"
+    #define nctype "m"
+    #define maxthreads (128)
 #elif MIPS
-	#define irc_nick_prefix   "[M]"
-	#define nctype "m"
-	#define maxthreads (128)
+    #define irc_nick_prefix   "[M]"
+    #define nctype "m"
+    #define maxthreads (128)
 #elif SUPERH
-	#define irc_nick_prefix   "[S]"
-	#define nctype "s"
-	#define maxthreads (128)
+    #define irc_nick_prefix   "[S]"
+    #define nctype "s"
+    #define maxthreads (128)
 #elif ARM
-	#define irc_nick_prefix   "[A]"
-	#define nctype "a"
-	#define maxthreads (128)
+    #define irc_nick_prefix   "[A]"
+    #define nctype "a"
+    #define maxthreads (128)
 #elif PPC
-	#define irc_nick_prefix   "[P]"
-	#define nctype "p"
-	#define maxthreads (128)
+    #define irc_nick_prefix   "[P]"
+    #define nctype "p"
+    #define maxthreads (128)
 #else
-	#define irc_nick_prefix   "[X]"
-	#define nctype "x"
-	#define maxthreads (128)
+    #define irc_nick_prefix   "[X]"
+    #define nctype "x"
+    #define maxthreads (128)
 #endif
 
 #endif

@@ -7,7 +7,7 @@
 #define maxhosts (65535)
 
 typedef struct {
-	char hostname[32];
+    char hostname[32];
 } scan_data_t;
 
 FILE *resfd, *statfd;

