@@ -10,7 +10,7 @@ no liability and are not responsible for any misuse or damage caused by this pro
 Description
 ------------
 
-Lightidra is a mass-tool commanded by irc that allows scanning and exploiting routers 
+Lightaidra is a mass-tool commanded by irc that allows scanning and exploiting routers 
 for make BOTNET (in rx-bot style), in addition to this, with aidra you can perform 
 some attacks with tcp flood.
 
